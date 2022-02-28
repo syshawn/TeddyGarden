@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<head>
+  <title>About Teddy Garden</title>
+  <meta charset="UTF-8">
+  <meta name="authoring-tool" content="Adobe_Animate_CC">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+  <!--Links-->
+  <script src="js/javaScript.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+  <!--Java Script-->
+  <!--Navbar-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!--Themes-->
+  <script src="https://unpkg.com/react@16.3.0-alpha.1/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16.3.0-alpha.1/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/styled-components@2.2.1/dist/styled-components.min.js"></script>
+
+  <!-- About Page -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+  <script src="js/about.js"></script>
+</head>
+
+<body>
+  <!--Logo-->
+  <div class="main-logo ">
+    <a href="HomePage.html">
+      <img src="images/logo.png" alt="logo" width="135" height="135">
+    </a>
+  </div>
+  <!--background image-->
+
+  <div class="bg1">
+    <!----------------------------------------------------------->
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-custom navbar-mainbg">
+      <!--Main Buttons-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+
+          <div class="hori-selector">
+            <div class="left"></div>
+            <div class="right"></div>
+          </div>
+
+          <!--Home-->
+          <li class="nav-item">
+            <a class="nav-link" href="HomePage.html"><i class="fas fa-home fa-3x"><span
+                  style="font-size: 20pt; text-align: middle; font-family: Dunkin; src: url('font/Dunkin.ttf'); letter-spacing: -1px;">
+                  Home</span></i></a>
+          </li>
+
+          <!--Video-->
+          <li class="nav-item">
+            <a class="nav-link" href="VideoPage.html"><i class="fas fa-video fa-3x"><span
+                  style="font-size: 20pt; text-align: middle; font-family: Dunkin; src: url('font/Dunkin.ttf'); letter-spacing: -1px;">
+                  Videos</span></i></a>
+          </li>
+
+          <!--Game-->
+          <li class="nav-item">
+            <a class="nav-link" href="GamePage.html"><i class="fas fa-gamepad fa-3x"><span
+                  style="font-size: 20pt; text-align: middle; font-family: Dunkin; src: url('font/Dunkin.ttf'); letter-spacing: -1px;">
+                  Games</span></i></a>
+          </li>
+
+          <!--About-->
+          <li class="nav-item active">
+            <a class="nav-link" href="AboutPage.html"><i class="fas fa-info-circle fa-3x"><span
+                  style="font-size: 20pt; text-align: middle; font-family: Dunkin; src: url('font/Dunkin.ttf'); letter-spacing: -1px;">
+                  About</span></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <!--Responsive main menu buttons-->
+      <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars text-white"></i>
+      </button>
+
+    </nav>
+    
+    <div class="content">
+
+
+      <!----------------------------------------------------------->
+
+      <br><br>
+      <!--Background Music-->
+            <div class="musicOn">
+              <audio id="track" autoplay>
+              <source src="sounds/aboutBG.mp3" type="audio/mpeg" />
+              </audio>
+      
+            <div id="player-container">
+              <div id="play-pause" class="play">Play</div>
+            </div>
+              
+            <div class="container">
+              <p style="text-align:center; font-size:35pt; color:#5E4E34; font-family: Dunkin; src: url('font/Dunkin.ttf'); letter-spacing: -1.5px;">Welcome to Teddy Garden</p>
+              </div>
+            </div>
+      <br>
+      <br>
+      <!----------------------------------------------------------->
+      <!--Rotate Bear-->
+      <div class=imagerotate>
+        <img src="images/about/dancing.png" style="width:200%">
+      </div>
+
+
+      <br><br><br><br><br>
+      <!----------------------------------------------------------->
+      <!--Content-->
+      <div class="container">
+
+        <button class="accordion">
+          <h2> Mission</h2>
+        </button>
+        <div class="panel">
+          <p1>We’re dedicated to helping children grow smarter, stronger, and kinder.</p1><br>
+          <p1>Here are all the ways we’re doing it.</p1>
+        </div>
+
+        <!--Location-->
+        <button class="accordion">
+          <h2> Location</h2>
+        </button>
+        <div class="panel">
+          <table>
+            <tr>
+              <th>
+                <p1>Address: YPC International College, Jalan Jejaka, 55200 WPKL</p1>
+              </th>
+
+              </td>
+
+            </tr>
+            <tr>
+              <th>
+                <p1>Contact Number: 03-33333333</p1>
+              </th>
+
+            </tr>
+
+          </table>
+        </div>
+
+        <!--Team Members-->
+        <button class="accordion">
+          <h2> Team Members</h2>
+        </button>
+
+        <div class="panel">
+          <div class="row">
+            <!--Joey-->
+            <div class="col card" style="width:400px">
+              <img class="card-img-top" src="images/about/joey.png" alt=" Joey" style="width:135%; margin-left:-40px">
+              <div class="card-body">
+                <h5 class="card-title">Web Developer</h5>
+                <p class="card-text">
+                  <p2>Chin Xin Yi (Joey)</p2>
+                </p>
+              </div>
+            </div>
+
+            <!--Meipoh-->
+            <div class="col card" style="width:400px">
+              <img class="card-img-top" src="images/about/mei poh.jpeg" alt=" MeiPoh" style="width:105%">
+              <div class="card-body">
+                <h5 class="card-title">Web Developer</h5>
+                <p class="card-text">
+                  <p2>Wong Mei Poh</p2>
+                </p>
+              </div>
+            </div>
+
+            <!--Mike-->
+            <div class="col card" style="width:400px">
+              <img class="card-img-top" src="images/about/Mike.jpeg" alt=" KinYing" style="width:105%">
+              <div class="card-body">
+                <h5 class="card-title">Web Developer</h5>
+                <p class="card-text">
+                  <p2>Chun Kin Ying</p2>
+                </p>
+              </div>
+            </div>
+
+            <!--Yau-->
+            <div class="col card" style="width:400px">
+              <img class="card-img-top" src="images/about/Yau.jpeg" alt=" GiakKian" style="width:100%">
+              <div class="card-body">
+                <h5 class="card-title">Web Developer</h5>
+                <p class="card-text">
+                  <p2>Yau Giak Kian</p2>
+                </p>
+              </div>
+            </div>
+
+            <!--Shawn-->
+            <div class="col card" style="width:400px">
+              <img class="card-img-top" src="images/about/shawn.jpeg" alt=" ShengYuan" style="width:100%">
+              <div class="card-body">
+                <h5 class="card-title">Web Developer</h5>
+                <p class="card-text">
+                  <p2>Lim Sheng Yuan</p2>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br><br>
+
+      <!--Cartoon Vector-->
+      <div class="center">
+        <img src="images/about/charaters.png" width="1200px">
+      </div>
+
+    </div>
+
+  </div>
+  
+</body>
+
+<!----------------------------------------------------------->
+
+<!-- Footer -->
+<div class="container-fluid" style="background-color:#008080;">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-5">
+    <div class="ms-3" style="padding-left: 30px;">
+      <span style="color:white">TeddyGarden© 2021 Company, Inc</span>
+    </div>
+
+    <ul class="nav footer-icon col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><i class="fab fa-facebook fa-2x"></i></li>
+      <li class="ms-3"><i class="fab fa-instagram fa-2x"></i></li>
+      <li class="ms-3"><i class="fab fa-whatsapp fa-2x"></i></li>
+    </ul>
+  </footer>
+</div>
+
+     <!--Navbar Java Script-->
+     <script>
+      // ---------Responsive-navbar-active-animation-----------
+      function test() {
+        var tabsNewAnim = $('#navbarSupportedContent');
+        var selectorNewAnim = $('#navbarSupportedContent').find('li').length;
+        var activeItemNewAnim = tabsNewAnim.find('.active');
+        var activeWidthNewAnimHeight = activeItemNewAnim.innerHeight();
+        var activeWidthNewAnimWidth = activeItemNewAnim.innerWidth();
+        var itemPosNewAnimTop = activeItemNewAnim.position();
+        var itemPosNewAnimLeft = activeItemNewAnim.position();
+        $(".hori-selector").css({
+          "top": itemPosNewAnimTop.top + "px",
+          "left": itemPosNewAnimLeft.left + "px",
+          "height": activeWidthNewAnimHeight + "px",
+          "width": activeWidthNewAnimWidth + "px"
+        });
+        $("#navbarSupportedContent").on("click", "li", function (e) {
+          $('#navbarSupportedContent ul li').removeClass("active");
+          $(this).addClass('active');
+          var activeWidthNewAnimHeight = $(this).innerHeight();
+          var activeWidthNewAnimWidth = $(this).innerWidth();
+          var itemPosNewAnimTop = $(this).position();
+          var itemPosNewAnimLeft = $(this).position();
+          $(".hori-selector").css({
+            "top": itemPosNewAnimTop.top + "px",
+            "left": itemPosNewAnimLeft.left + "px",
+            "height": activeWidthNewAnimHeight + "px",
+            "width": activeWidthNewAnimWidth + "px"
+          });
+        });
+      }
+      $(document).ready(function () {
+        setTimeout(function () { test(); });
+      });
+      $(window).on('resize', function () {
+        setTimeout(function () { test(); }, 500);
+      });
+      $(".navbar-toggler").click(function () {
+        $(".navbar-collapse").slideToggle(300);
+        setTimeout(function () { test(); });
+      });
+
+      // --------------add active class-on another-page move----------
+      jQuery(document).ready(function ($) {
+        // Get current path and find target link
+        var path = window.location.pathname.split("/").pop();
+
+        // Account for home page with empty path
+        if (path == '') {
+          path = 'HomePage.html';
+        }
+
+        var target = $('#navbarSupportedContent ul li a[href="' + path + '"]');
+        // Add active class to target link
+        target.parent().addClass('active');
+      });
+      
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function () {
+            this.classList.toggle("active1");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+
+        var track = document.getElementById('track');
+
+        var controlBtn = document.getElementById('play-pause');
+
+        function playPause() {
+          if (track.paused) {
+            track.play();
+            //controlBtn.textContent = "Pause";
+            controlBtn.className = "pause";
+          } else {
+            track.pause();
+            //controlBtn.textContent = "Play";
+            controlBtn.className = "play";
+          }
+        }
+
+        controlBtn.addEventListener("click", playPause);
+        track.addEventListener("ended", function () {
+          controlBtn.className = "play";
+        });
+
+      </script>
+
+</html>
